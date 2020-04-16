@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.container {
+    text-align: center;
+}
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.navbar {
+    height: 55px;
+    color: white;
+    font-size: 1.2em;
+    background-color: black;
+}
+
+ul.navbar {
+    list-style: none;
+    width: 800px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li.navbarItem {
+    display: inline-block;
+    line-height: 55px;
+    width: 150px;
+}
+
+li.navbarItem:hover {
+    background-color: rgb(46, 46, 46);
+    cursor: pointer;
+}
+
+li.navbarItem:hover:last-child {
+    background-color: black;
+    cursor: pointer;
+}
+
+ul li img {
+    height: 33px;
+}
+
+div.header {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+h1.title {
+    font-size: 32px;
+}
+
+h2.subtitle {
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #0b6325;
+}
+
+div.panelContainer {
+    background-color: #a9c8af;
+}
+
+div.panel {
+    width: 800px;
+    height: 450px;
+    background-image: url('images/header.jpg');
+    margin: 0 auto;
+    position: relative;
+}
+
+div.welcome {
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    height: 180px;
+    width: 760px;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+h1.welcome {
+    font-size: 68px;
+    font-weight: normal;
+    padding-bottom: 15px;
+}
+
+p.subofwelcome {
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+div.buttonInPanel {
+    width: 100px;
+    background-color: black;
+    border: 2px solid white;
+    margin: 20px auto;
+    padding: 10px 15px;
+}
+
+div.buttonInPanel:hover {
+    cursor: pointer;
+    background-color:  rgb(46, 46, 46);
+}
+
+div.contentContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.left {
+    width: 375px;
+    margin: 15px auto;
+    margin-right: 30px;
+}
+
+div.right {
+    width: 375px;
+    margin: 15px auto; 
+    margin-left: 30px;
+}
+
+h1.contentTitle {
+    font-size: 22px;
+    color: #444;
+    border-top: 2px solid black;
+    font-weight: normal;
+    text-align: left;
+}
+
+div.radialbutton {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 30px;
+    float: right;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid black;
+}
+
+div.radialbutton:hover {
+    background-color: rgb(46,46,46);
+    color: white;
+    cursor: pointer;
+}
+
+table {
+    margin-top: 30px;
+    text-align: left;
+    border-spacing: 0;
+}
+
+td {
+    width: 120px;
+    height: 30px;
+    border-bottom: 1px dashed black;
+}
+
+.first td{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+.searchBar {
+    background-image: url('images/search.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
